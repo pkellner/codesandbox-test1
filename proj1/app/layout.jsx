@@ -4,10 +4,7 @@ export const metadata = {
 }
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+  children}) {
   return (
     <html lang="en">
       <body>{children}</body>
